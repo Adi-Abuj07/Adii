@@ -1,13 +1,17 @@
 public class demo {
     public static void main(String[] args) {
-        String str1="abc";
-        String str2="cde";
-        for (int i=0;i<str1.length();i++)
-
+        int n=7;
+        for (int i=1;i<=n;i++)
         {
-           for (int j=0;j<str2.length();j++){
-               System.out.println("" + str1.charAt(i) + str2.charAt(j));
-           }
+            int b=i;
+            int a=6;
+            for (int j=1;j<=n-i;j++)
+            {
+                System.out.print(" "+b);
+                b=b+a;
+                a--;
+            }
+            System.out.println();
         }
     }
 }

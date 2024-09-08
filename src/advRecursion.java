@@ -7,7 +7,7 @@ public class advRecursion {
         }
         for (int i=0;i<str.length();i++) {
             char currchar=str.charAt(i);
-            String newStr=str.substring(0,i)+str.substring(i+1);
+            String newStr=str.substring(0,i)+str.substring(i+1,str.length());
             printperm(newStr,permutation+currchar);
         }
     }

@@ -1,5 +1,5 @@
-package loops;
-import java.io.*;
+package array;
+
 public class SecondLargestSmallest {
     public static int[] findSecondLargestSmallest(int[] a, int n) {
         if (n < 2) {

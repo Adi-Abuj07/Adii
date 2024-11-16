@@ -1,6 +1,5 @@
-package loops;
+package array;
 
-import java.util.*;
 public class dupli {
         public static boolean check(int[] nums) {
             int count = 0; // Count of places where the order is violated

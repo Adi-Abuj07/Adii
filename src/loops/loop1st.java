@@ -35,8 +35,28 @@ public class loop1st {
             System.out.println();
         }
     }
+    public static void print3(int n){
+         char ch='A';
+        for (int i=1;i<=n;i++)
+        {
+         for(char j=1;j<=i;j++)
+         {
+             System.out.print(ch+" ");
+         }
+            System.out.println();
+            ch++;
+        }
+    }
+    public void print4(int n){
+        for(int i=0;i<n;i++)
+        {
+
+        }
+    }
+
+
     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
-       print2(5);
+       print1(3);
     }
 }
